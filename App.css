@@ -1,0 +1,54 @@
+div {
+  background-image: url("https://images.unsplash.com/photo-1594897030264-ab7d87efc473?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80") ;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.navbar {
+  background-color: rgb(250, 241, 241);
+  color: #17bde6;
+  padding:10px;
+  }
+ .navitems h2 {
+  margin-left: 10%;
+  font-size: 30px;
+  display: inline-block;
+  } 
+  .btn {
+    margin-left: 80%;
+    float: right;
+    margin: 18px;
+    background-image: linear-gradient(to bottom, #a2d8fc, #2980b9); 
+    border-radius: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    padding: 10px 20px;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  .btn:hover {
+    background-image: -webkit-linear-gradient(top, #17bde6, #7df8c5);
+    text-decoration: none;
+  }
+  .main {
+    display:inline-grid;
+    grid-template-columns: repeat(3, 1fr);
+    
+  }
+  .avatar {
+    border-radius: 50%;
+  }
+  .userGrid {
+    border-radius:7%;
+    background-image: linear-gradient(rgb(129, 72, 252), rgb(128, 224, 253));
+    margin:50px;
+    padding:20px;
+    text-align: center;
+    transition: transform 0.2s; 
+    cursor: pointer;
+  }
+  .userGrid p {
+    font-weight: 500;
+  }
+  .userGrid:hover {
+    transform: scale(1.06);
+  }
